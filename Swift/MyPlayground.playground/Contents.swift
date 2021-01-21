@@ -23,3 +23,28 @@ This goes \
 over multiple \
 lines
 """
+
+
+//doubles and boolenas
+var pi = 3.141
+
+var awesome = true
+awesome = false
+
+// string interpolation
+var score = 85
+var str3 = "Your score was \(score)"
+
+var results = "The test results are here: \(str3)"
+
+
+// constants
+let taylor = "swift"
+// taylor = "notswift" --> doesn't work because we can't change constant
+
+//type annotations
+let album: String = "evermore"
+let year: Int = 1989
+let height: Double = 1.78
+let taylorRocks: Bool = true
+
