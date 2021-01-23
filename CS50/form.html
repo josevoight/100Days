@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- This shows to the engine that the page is in english -->
+<head>
+    <title>Form</title>
+ </head>
+ <body>
+     <form> <!--This creates a form-->
+        <input type="text" placeholder="Full Name" name="full_name">
+        <input type="submit">
+
+     </form>
+
+     <form>
+         <div>
+             <input name="name" type="text" placeholder="Name">
+             <input name="password" type="password" placeholder="Password">
+         </div>
+        
+         <div>
+             <p>Favorite Color?</p>
+             <input type="radio" name="color" value="red"> Red
+             <input type="radio" name="color" value="green"> Green 
+             <input type="radio" name="color" value="blue"> Blue
+             <input type="radio" name="color" value="other"> Other
+         </div>
+
+         <div>
+             <input name="country" list="countries" placeholder="Country" >
+             <datalist id="countries">
+                 <option value="Afghanistan">
+                 <option value="Argentina">
+                 <option value="Mexico">
+             </datalist>
+         </div>
+     </form>
+
+ </body>
+</html>
