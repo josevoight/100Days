@@ -1,5 +1,9 @@
 
-h1{
+#foo{
     color: red; 
     text-align: center;"
+}
+
+.baz{
+    color: blue;
 }
