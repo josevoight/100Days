@@ -1,4 +1,4 @@
-n = input("Number: ")
+n = int(input("Number: "))
 
 # condition 
 if n > 0:
