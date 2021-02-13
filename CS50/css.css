@@ -12,4 +12,19 @@ p{
 
 .love_story {
     background-color: gold;
+
 }
+     .taylor  {
+
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+    }
+
+    .taylor > div {
+        background-color: springgreen;
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        width: 200px;
+    }
