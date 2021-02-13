@@ -1,6 +1,15 @@
+body{
+    background-color: goldenrod;
+}
+
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: solid;
     color: red;
+}
+
+.love_story {
+    background-color: gold;
 }
