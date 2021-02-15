@@ -21,8 +21,9 @@
     border: 10px solid goldenrod;
     min-height: 100vh;
     flex-wrap: wrap;
+    flex-direction: column; 
 }
 
 .box {
-    width: 300px;
+    width: 33.333333%;
 }
