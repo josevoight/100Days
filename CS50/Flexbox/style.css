@@ -20,10 +20,14 @@
 .container {
     display: flex;
     border: 10px solid mistyrose; 
-    align-items: center;
     height: 100vh;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    align-content: center;
 
 }
  
-
+.box {
+    width: 33.333%;
+}
