@@ -21,13 +21,20 @@
     display: flex;
     border: 10px solid mistyrose; 
     height: 100vh;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    align-content: center;
+    align-items: flex-start;
 
 }
  
 .box {
     width: 33.333%;
+}
+
+.box2 {
+    padding: 50px;
+    align-self: center;
+}
+
+.box3{
+    padding: 20px;
+    align-self: flex-end;
 }
