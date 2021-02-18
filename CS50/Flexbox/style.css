@@ -2,8 +2,9 @@
     color: white;
     font-size: 50px;
     text-align: center;
-    text-shadow: 4px 0 rgba(0,0,0,0,1);
+    text-shadow: 4px 4px rgba(0,0,0,0,1);
     font-family: Helvetica;
+    padding: 10px;
 }
 
 .box1 {background: #1ab;}
@@ -19,15 +20,13 @@
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 
 }
  
 
-.box1 {
-    flex: 10 5 400px;
-    
-}
-
-.box2 {
-    flex: 1 1 400px;
+.box {
+    flex-basis: 300px;
+    flex-grow: 1;
 }
