@@ -6,4 +6,4 @@ gulp.task('styles', function() {
     .pipe(autoprefixer())
     .pipe(gulp.dest('build'))
 
-}};
+});
