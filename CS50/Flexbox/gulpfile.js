@@ -7,3 +7,9 @@ gulp.task('style', async function() {
     .pipe(gulp.dest('build'))
 
 }); 
+
+gulp.task('watch',function() {
+    gulp.watch('css/style.css', [styles]);
+
+
+});
