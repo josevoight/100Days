@@ -8,8 +8,8 @@ gulp.task('style', async function() {
 
 }); 
 
-gulp.task('watch',function() {
-    gulp.watch('css/style.css', [styles]);
+gulp.task('watch', async function() {
+    gulp.watch('css/style.css', gulp.series['style']);
 
 
 });
