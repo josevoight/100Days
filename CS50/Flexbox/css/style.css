@@ -21,7 +21,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     border: 10px solid white;
     height: 100vh;
  
@@ -30,15 +30,9 @@
  
 
 .box {
-    flex-basis: 250px;
+    flex-basis: 100 px;
     flex-grow: 1;
 
-}
 
-.box3 {
-    flex-grow: 5;
-}
 
-.box4 {
-    flex-basis: 300px;
 }

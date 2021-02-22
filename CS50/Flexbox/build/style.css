@@ -19,9 +19,15 @@
 .box10 {background: #e67e22;}
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     border: 10px solid white;
     height: 100vh;
  
@@ -30,15 +36,12 @@
  
 
 .box {
-    flex-basis: 250px;
-    flex-grow: 1;
+    -ms-flex-preferred-size: 100 px;
+        flex-basis: 100 px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
 
-}
 
-.box3 {
-    flex-grow: 5;
-}
 
-.box4 {
-    flex-basis: 100px;
 }
