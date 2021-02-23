@@ -7,6 +7,6 @@ gulp.task('styles', async function(){
    .pipe(gulp.dest ('build'));
 });
 
-gulp.task('watch', function(){
+gulp.task('watch',  function(){
     gulp.watch('css/style.css', gulp.series(['styles']));
 });
